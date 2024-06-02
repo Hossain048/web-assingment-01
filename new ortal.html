@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News-portal page</title>
+</head>
+<body>
+
+    
+    <table >
+        <tr colspan="3" style="background-color:#8A2BE2;">
+            <th width="250px" height="100px" >
+                <img src="hossain.jpg"  width="75%" height="90%">
+            </th>
+            <th align="center"width="75%" height="50px" ><h1 style="color:black;">MD. ABU HOSSAIN MOHALDER </h1></th>
+			<th width="400px" height="100px">
+			    <p align="center"style="color:black;">
+    <script>
+        function updateDate() {
+            const dateElement = document.getElementById('date');
+            const now = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.innerText = now.toLocaleDateString(undefined, options);
+        }
+
+        // Update the date immediately when the page loads
+        window.onload = updateDate;
+        // Optional: Update the date every 24 hours
+        setInterval(updateDate, 24 * 60 * 60 * 1000);
+    </script>
+
+
+    <h3 style = " color:#EE82EE;">Today's Date:</h3>
+    <p id="date"></p>
+ </p>
+				<form action="" method="GET">
+				 
+				<input type="text" name="search" placeholder="Search here">
+				</form>
+				
+			</th>
+        </tr></table>
+	<table width="100%">
+		 <tr rowspan="6" height="50px" style="background-color:#008000;" >
+          
+			  <th align="center"width="17%"><a href="index.html"style="color:white;">HOME</a></th>
+			  <th align="center"width="17%"><a href="Form-login.html"style="color:white;">FORM</a></th>
+			  <th align="center"width="16%"><a href="Table.html"style="color:white;">TABLE</a></th>
+			  <th align="center"width="17%"><a href="news portal.html"style="color:white;">NEWS PORTAL</a></th>
+			  
+			  <th align="center"width="16%"><a href="Image.html"style="color:white;">IMAGE</a></th>
+			  <th align="center"width="17%"><a href="Contact.html"style="color:white;">CONTACT</a></th>
+			
+			
+        </tr>
+	</table>
+	<marquee behavior="scroll" direction="left"><h3 style="color:blue;">All news in a single page</h3></marquee>
+   <table border="1" width="100%" height="300px" >
+    <tr >
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.prothomalo.com" target="_blank">
+	   <img src="p alo.webp "height="100px"width="200px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.thedailystar.net" target="_blank">
+	   <img src="daily star.png "height="80px"width="250px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.bdnews24.com" target="_blank">
+	   <img src="bdnews24.jpg "height="150px"width="200px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.kalerkantho.com" target="_blank">
+	   <img src="kaler konto.jpg "height="100px"width="200px" >
+	   </a></td>
+	   
+	</tr>
+	<tr >
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://thedailycampus.com" target="_blank">
+	   <img src="daily campus.jpg "height="100px"width="200px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://epaper.ittefaq.com.bd/" target="_blank">
+	   <img src="Daily-Ittefaq.png "height="80px"width="250px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.bd-pratidin.com" target="_blank">
+	   <img src="bangla protidin.jpg "height="150px"width="200px" >
+	   </a></td>
+	   <td width="25%" height="100px"align="center">
+	   <a href ="https://www.jugantor.com/" target="_blank">
+	   <img src="jugantor.png "height="100px"width="200px" >
+	   </a></td>
+	   
+	</tr>
+   </table>
+</body>
+</html>
